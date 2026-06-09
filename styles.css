@@ -106,7 +106,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   letter-spacing: 0.04em;
   text-transform: uppercase;
   padding: 0.95rem 1.5rem;
-  border-radius: 2px;
+  border-radius: 0;
   transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
   white-space: nowrap;
 }
@@ -145,7 +145,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   gap: 1.5rem;
   padding: 0.55rem 0.6rem 0.55rem 1.5rem;
   background: var(--silver-soft);
-  border-radius: 999px;
+  border-radius: 0;
   box-shadow: 0 6px 28px -12px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(28, 28, 28, 0.04);
   max-width: 1500px;
   margin: 0 auto;
@@ -235,7 +235,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding: 0.7rem 1.35rem;
   background: var(--forest-deep);
   color: var(--white);
-  border-radius: 999px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 0.9rem;
@@ -263,7 +263,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   width: 20px;
   height: 2px;
   background: var(--charcoal);
-  border-radius: 1px;
+  border-radius: 0;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
@@ -274,7 +274,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   left: 0.85rem;
   right: 0.85rem;
   background: var(--charcoal);
-  border-radius: 18px;
+  border-radius: 0;
   padding: 0.75rem 1.25rem 1.25rem;
   z-index: 49;
   box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.35);
@@ -309,7 +309,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   background: var(--orange);
   color: var(--charcoal) !important;
   text-align: center;
-  border-radius: 999px;
+  border-radius: 0;
   border: 0 !important;
   padding: 0.95rem 1.25rem !important;
   font-weight: 700 !important;
@@ -358,7 +358,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 .hero-image-wrap {
   position: relative;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 0;
   overflow: hidden;
   aspect-ratio: 16 / 11;
 }
@@ -380,7 +380,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   background: var(--forest-deep);
   color: var(--white);
   padding: 0.7rem 0.95rem 0.8rem;
-  border-radius: 6px;
+  border-radius: 0;
   min-width: 190px;
   transition: background 0.18s ease, transform 0.18s ease;
 }
@@ -440,7 +440,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding: 0.9rem 1.5rem;
   background: var(--orange);
   color: var(--white);
-  border-radius: 8px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.85rem;
@@ -608,7 +608,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   align-self: flex-start;
   padding: 0.75rem 1.1rem;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 6px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-size: 0.78rem;
   font-weight: 600;
@@ -677,7 +677,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 .capability-media {
   position: relative;
-  border-radius: 16px;
+  border-radius: 0;
   overflow: hidden;
   background: var(--forest-deep);
   min-height: 520px;
@@ -700,7 +700,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   background: rgba(20, 22, 24, 0.78);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border-radius: 999px;
+  border-radius: 0;
   color: #fff;
   font-family: var(--font-display);
   font-size: 0.82rem;
@@ -734,7 +734,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 .capability-card {
   background: #fff;
-  border-radius: 16px;
+  border-radius: 0;
   padding: clamp(1.75rem, 3vw, 2.5rem);
   display: flex;
   flex-direction: column;
@@ -773,7 +773,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding: 0.6rem 1rem;
   background: rgba(28, 28, 28, 0.05);
   color: rgba(28, 28, 28, 0.55);
-  border-radius: 6px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-size: 0.72rem;
   font-weight: 600;
@@ -981,7 +981,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   min-height: 440px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 18px;
+  border-radius: 0;
 }
 
 .process-step-num {
@@ -1048,7 +1048,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   gap: 0.5rem;
   padding: 0.55rem 0.9rem;
   border: 1px solid rgba(255, 107, 0, 0.45);
-  border-radius: 6px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-size: 0.78rem;
   font-weight: 600;
@@ -1250,7 +1250,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding: 2rem 2.25rem 2.25rem;
   background: var(--charcoal);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
+  border-radius: 0;
 }
 
 .form-dots {
@@ -1300,7 +1300,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.06);
   color: var(--white);
-  border-radius: 8px;
+  border-radius: 0;
   transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -1321,7 +1321,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding: 1.35rem 1.5rem;
   background: var(--orange);
   color: var(--charcoal);
-  border-radius: 8px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1rem;
@@ -1380,7 +1380,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding: 1.35rem 2.5rem;
   background: var(--orange);
   color: var(--charcoal);
-  border-radius: 8px;
+  border-radius: 0;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1rem;
