@@ -921,7 +921,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 /* ----- Process ----- */
 
-.process { background: var(--orange); color: #fff; }
+.process { background: var(--charcoal); color: #fff; }
 
 .process-inner {
   padding-top: var(--section-y);
