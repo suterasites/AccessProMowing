@@ -1379,7 +1379,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 /* ----- Closing CTA ----- */
 
 .closing-cta {
-  background: var(--forest-deep);
+  background: var(--forest);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
