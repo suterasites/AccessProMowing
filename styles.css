@@ -144,9 +144,9 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   align-items: center;
   gap: 1.5rem;
   padding: 0.55rem 0.6rem 0.55rem 1.5rem;
-  background: var(--silver-soft);
+  background: var(--charcoal);
   border-radius: 0;
-  box-shadow: 0 6px 28px -12px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(28, 28, 28, 0.04);
+  box-shadow: 0 6px 28px -12px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.06);
   max-width: 1500px;
   margin: 0 auto;
   transition: box-shadow 0.25s ease;
@@ -159,13 +159,14 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 .brand {
   display: inline-flex;
   align-items: center;
-  padding: 0.55rem 0.9rem;
-  background: var(--forest-deep);
-  border: 1.5px solid rgba(255, 255, 255, 0.85);
-  border-radius: 0;
-  color: var(--white);
   flex-shrink: 0;
   line-height: 1;
+}
+
+.brand-logo {
+  display: block;
+  height: 44px;
+  width: auto;
 }
 
 .brand-mark {
@@ -173,16 +174,6 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   align-items: center;
   justify-content: center;
   color: var(--orange);
-}
-
-.brand-name {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.85rem;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--white);
 }
 
 .brand-pro { color: var(--orange); }
@@ -202,7 +193,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   line-height: 1;
   letter-spacing: 0;
   text-transform: none;
-  color: var(--charcoal);
+  color: var(--white);
   opacity: 0.82;
   transition: opacity 0.18s ease, color 0.18s ease;
 }
@@ -219,9 +210,9 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 .header-direct {
   font-family: var(--font-body);
   font-size: 0.9rem;
-  color: var(--charcoal);
+  color: var(--white);
   text-decoration: underline;
-  text-decoration-color: rgba(28, 28, 28, 0.4);
+  text-decoration-color: rgba(255, 255, 255, 0.4);
   text-underline-offset: 4px;
   transition: color 0.18s ease, text-decoration-color 0.18s ease;
 }
@@ -233,7 +224,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 .header-cta-solid {
   padding: 0.7rem 1.35rem;
-  background: var(--forest-deep);
+  background: var(--orange);
   color: var(--white);
   border-radius: 0;
   font-family: var(--font-display);
@@ -243,7 +234,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   transition: background 0.18s ease;
 }
 
-.header-cta-solid:hover { background: var(--forest); }
+.header-cta-solid:hover { background: var(--orange-hover); }
 
 .nav-toggle {
   display: none;
@@ -262,7 +253,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   display: block;
   width: 20px;
   height: 2px;
-  background: var(--charcoal);
+  background: var(--white);
   border-radius: 0;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
