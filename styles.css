@@ -1439,21 +1439,12 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 .footer-brand { max-width: 360px; }
 
-.footer-mark {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.6rem 1rem;
-  border: 1.5px solid rgba(255, 255, 255, 0.85);
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white);
+.footer-logo {
+  display: block;
+  height: 56px;
+  width: auto;
   margin-bottom: 1.5rem;
 }
-
-.footer-mark .brand-pro { color: var(--orange); }
 
 .footer-tag {
   font-size: 0.95rem;
