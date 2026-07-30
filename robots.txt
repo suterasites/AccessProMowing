@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://accesspromowing.com.au/sitemap.xml
