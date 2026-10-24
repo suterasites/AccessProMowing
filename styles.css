@@ -86,6 +86,21 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 
 .eyebrow-light { color: var(--orange); }
 
+/* Skip link: off-screen until focused, so keyboard users can jump past the header. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 1000;
+  padding: 0.65rem 1rem;
+  background: var(--orange);
+  color: var(--charcoal);
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus { top: 1rem; }
+
 .section-title {
   font-size: clamp(2rem, 4.4vw, 3.4rem);
   letter-spacing: -0.01em;
@@ -369,6 +384,8 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 }
 
 .hero-display-accent { color: var(--orange); }
+
+.hero-eyebrow { color: var(--forest); margin-bottom: 1rem; }
 
 .hero-bottom {
   display: grid;
