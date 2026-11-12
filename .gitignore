@@ -20,3 +20,6 @@ yarn-error.log
 dist/
 build/
 .cache/
+
+# Internal notes. The host publishes everything tracked here, so this stays local.
+assets/README.md
