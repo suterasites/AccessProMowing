@@ -878,12 +878,17 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   padding-bottom: var(--section-y);
 }
 
+/* Six tracks: the two lead sectors (commercial, body corporate) take half a row
+   each, the other three a third each underneath. */
 .sector-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 1.25rem;
   margin-top: 3rem;
 }
+
+.sector-grid > .sector-card { grid-column: span 2; }
+.sector-grid > .sector-card-lead { grid-column: span 3; }
 
 .sector-card {
   background: var(--white);
@@ -952,7 +957,9 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
 .sector-uses li:last-child { border-bottom: 0; }
 
 @media (max-width: 960px) {
-  .sector-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .sector-grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .sector-grid > .sector-card,
+  .sector-grid > .sector-card-lead { grid-column: auto; }
 }
 
 /* ----- Process ----- */
